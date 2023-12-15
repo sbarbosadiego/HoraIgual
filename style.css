@@ -1,38 +1,62 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-Texto: 'Quicksand', sans-serif;
+    --fonte-Destaque: 'Bebas Neue', sans-serif;
+}
+
 body {
     background: rgb(55, 80, 114);
     font: normal 15pt Arial;
 }
 
+/* Header config */
 header {
     color: white;
     text-align: center;
 }
 
+header > h1 > a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-Destaque);
+    letter-spacing: 3px;
+}
+
+header > h1 > a:hover {
+    color: rgb(125, 136, 136);
+    transition-duration: 0.2s;
+}
+
+/* Section config */
 section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(83, 83, 83, 0.39);
+    font-family: var(--fonte-Texto);
 }
 
 /* Footer config */
 footer {
     color: white;
     text-align: center;
-    font-style: italic;
 }
 
 footer > p > a {
     color: white;
     text-decoration: none;
+    font-family: var(--fonte-Texto);
 }
 
 footer > p > a:hover {
     color: rgb(125, 136, 136);
+    transition-duration: 0.2s;
 }
 
 .centraliza {

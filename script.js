@@ -81,7 +81,7 @@ function verificar() {
                 resultado.innerHTML = '<strong>23:23</strong><br>Jamais será traído(a).'
                 break
             default:
-                resultado.innerHTML = 'Digite um hora válida.'
+                resultado.innerHTML = 'Digite uma hora válida.'
         }
     }
 
