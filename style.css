@@ -59,6 +59,7 @@ footer > p > a:hover {
     transition-duration: 0.2s;
 }
 
+/* Centraliza texto */
 .centraliza {
     text-align: center;
 }
