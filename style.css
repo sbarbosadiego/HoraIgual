@@ -59,6 +59,17 @@ footer > p > a:hover {
     transition-duration: 0.2s;
 }
 
+img {
+    padding-top: 20px;
+    width: 40px;
+    transition: 0.2s;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+
 /* Centraliza texto */
 .centraliza {
     text-align: center;
